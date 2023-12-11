@@ -174,9 +174,13 @@ article .buttons-wrapper {
   flex-direction: row;
   gap: 12px;
   justify-content: flex-end;
+  align-items: center;
   padding-top: 25px;
 }
-
+.card__icon-button{
+  width: 38px;
+  height: 38px;
+}
 article .buttons-wrapper .card__like-button {
   width: 130px;
   height: 38px;
