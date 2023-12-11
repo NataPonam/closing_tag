@@ -117,7 +117,7 @@ article {
 }
 
 article h2 {
-  padding: 2px 10px;
+  padding: 15px;
   align-self: flex-start;
   font-size: 18px;
   font-weight: 700;
@@ -148,6 +148,9 @@ article .par-wrapper p:not(:last-of-type) {
 .article__img {
   width: clamp(23.1875rem, 15.779rem + 31.6098vw, 43.4375rem);
   height: clamp(23.1875rem, 15.779rem + 31.6098vw, 43.4375rem);
+  border-left: 2px solid;
+  border-right: 2px solid;
+  object-fit: cover;
 }
 
 .article__img-wrapper {
