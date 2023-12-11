@@ -55,7 +55,7 @@ ol {
   --content-width: 1170px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
-  --card-width: clamp(23.4375rem, 16.0061rem + 31.7073vw, 43.75rem);
+  --card-width:  clamp(23.1875rem, 15.779rem + 31.6098vw, 43.4375rem);
   --anim-red: red;
   --border: 2px solid #000;
   --bg-color: #fff;

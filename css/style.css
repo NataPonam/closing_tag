@@ -29,6 +29,7 @@ body {
 }
 /*-----header-----*/
 header {
+  box-sizing: border-box;
   font-family: var(--accent-font);
   background-color: var(--bg-color);
   border: var(--border);
@@ -40,7 +41,7 @@ header {
 }
 
 header p {
-  font-size: clamp(3.0625rem, 2.6966rem + 1.561vw, 4.0625rem);
+  font-size: clamp(3rem, 2.6113rem + 1.6585vw, 4.0625rem);
   padding-block-end: 20px;
 }
 
@@ -108,6 +109,7 @@ header :not(:last-of-type) {
 
 /*-----card-----*/
 article {
+  box-sizing: border-box;
   width: var(--card-width);
   background-color: var(--bg-color);
   border: var(--border);
@@ -144,8 +146,8 @@ article .par-wrapper p:not(:last-of-type) {
 }
 
 .article__img {
-  width: clamp(23.1875rem, 15.7561rem + 31.7073vw, 43.5rem);
-  height: clamp(23.1875rem, 15.7561rem + 31.7073vw, 43.5rem);
+  width: clamp(23.1875rem, 15.779rem + 31.6098vw, 43.4375rem);
+  height: clamp(23.1875rem, 15.779rem + 31.6098vw, 43.4375rem);
 }
 
 .article__img-wrapper {
